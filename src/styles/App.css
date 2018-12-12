@@ -1,0 +1,175 @@
+html, body, #root, .App {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+::placeholder {
+  color: #52656d;
+}
+
+#root {
+  background-size: cover;
+  background-image: url('../images/bg.jpg');
+}
+
+.App {
+  text-align: center;
+  background-color: #087eabbf;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2% 1em;
+  border-bottom: 2px solid white;
+  padding: 5px 0;
+}
+
+.links div {
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  margin: 0 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.links a.active {
+  background-color: white;
+  color: #60a0c0;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.login-tabs {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.login-tabs div {
+  cursor: pointer;
+  flex-basis: 40%;
+  margin: 0 5%;
+  border-bottom: 1px solid white;
+  padding-bottom: 1%;
+}
+
+.login-tabs .active-tab {
+  font-weight: bold;
+  cursor: default;
+}
+
+.user-info {
+  padding: 1% 5% 3%;
+}
+
+.user-info input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #84f5f9;
+  width: 100%;
+  margin: 3% 0;
+  outline: none;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  color: #124c4e;
+}
+
+.user-info button{
+  background-color: #205b5d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  width: 50%;
+  margin-top: 5%;
+  cursor: pointer;
+  outline: none;
+}
+
+.user-sso {
+  cursor: default;
+}
+.user-sso i {
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  padding: 7px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+}
+
+.user-sso .google-p {
+  background-color: red;
+}
+
+.user-sso .fb {
+  background-color: #4267b2;
+}
+
+.user-sso .linkedin {
+  background-color: #0077b5;
+}
+
+.login-wrap {
+  width: 40%;
+  margin: auto;
+}
+
+.content {
+  margin-top: 5%;
+  color: white;
+  padding-bottom: 3%;
+}
+
+.change-view {
+  cursor: default;
+}
+
+.change-view a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #84f5f9;
+}
+
+.links div.project {
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #09383a;
+}
