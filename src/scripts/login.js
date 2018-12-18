@@ -62,7 +62,6 @@ class LoginModal extends Component {
 		}
 	}
 	render() {
-		debugger;
 		if(this.state.login) {
 			return this.renderLogin();
 		}
