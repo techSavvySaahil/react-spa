@@ -1,15 +1,15 @@
 {
-  "main.css": "/react-spa/static/css/main.ffdc9fec.chunk.css",
-  "main.js": "/react-spa/static/js/main.ab460a9d.chunk.js",
-  "main.js.map": "/react-spa/static/js/main.ab460a9d.chunk.js.map",
+  "main.css": "/react-spa/static/css/main.4400ef9c.chunk.css",
+  "main.js": "/react-spa/static/js/main.69b49249.chunk.js",
+  "main.js.map": "/react-spa/static/js/main.69b49249.chunk.js.map",
   "static/js/1.7c11da43.chunk.js": "/react-spa/static/js/1.7c11da43.chunk.js",
   "static/js/1.7c11da43.chunk.js.map": "/react-spa/static/js/1.7c11da43.chunk.js.map",
   "runtime~main.js": "/react-spa/static/js/runtime~main.8ca1f420.js",
   "runtime~main.js.map": "/react-spa/static/js/runtime~main.8ca1f420.js.map",
   "static/media/App.css": "/react-spa/static/media/bg.afad2fb5.jpg",
-  "static/media/font-awesome.min.css": "/react-spa/static/media/fontawesome-webfont.674f50d2.eot",
-  "static/css/main.ffdc9fec.chunk.css.map": "/react-spa/static/css/main.ffdc9fec.chunk.css.map",
+  "static/media/font-awesome.min.css": "/react-spa/static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/css/main.4400ef9c.chunk.css.map": "/react-spa/static/css/main.4400ef9c.chunk.css.map",
   "index.html": "/react-spa/index.html",
-  "precache-manifest.fbe814cbbb25726eb4c4b0d83dc78075.js": "/react-spa/precache-manifest.fbe814cbbb25726eb4c4b0d83dc78075.js",
+  "precache-manifest.86789e4de3384c0d85621f328b4715e1.js": "/react-spa/precache-manifest.86789e4de3384c0d85621f328b4715e1.js",
   "service-worker.js": "/react-spa/service-worker.js"
 }
